@@ -269,6 +269,51 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 .art .art_details .art_text{text-align: justify;line-height: 1.8;text-indent: 20px;}
 .art .art_details .art_text p{margin: 30px 0;}
 .art .art_details .art_text img{max-width: 100%;display: block;margin:30px auto;}
+/*关于我们*/
+.profile{padding-bottom: 30px;}
+.profile .sub_type_title{font-size: 28px;color: #666;overflow: hidden;height: 36px;}
+.profile .sub_type_title .type_title_left{font-weight: bold;float: left;padding-left:24px;position: relative;}
+.profile .sub_type_title .type_title_left:before{content:'';display: block;width: 6px;height: 26px;background-color:#5aa8ff;position: absolute;left: 0;top: 50%;margin-top: -13px;}
+.profile .sub_type_title .type_title_right{font-size: 12px;float: right;color: #999;margin-top: 20px;}
+.profile .sub_type_title .type_title_right a{color: #666;}
+.profile .a_profile{color: #666;line-height: 1.4;font-size: 14px;}
+.profile .a_profile .a_p_1{font-size: 18px;font-weight: bold;text-align: justify;margin: 16px 0;}
+.profile .a_profile .a_p_2{text-align: justify;}
+.profile .a_profile .a_p_3{margin: 12px 0 6px;}
+.profile .a_profile .a_ul{}
+.profile .a_profile .a_ul li{margin: 10px 0;padding-left:10px;position: relative;}
+.profile .a_profile .a_ul li:before{content: '';display: block;width: 4px;height: 4px;background-color: #000;left: 0;position: absolute;top: 50%;margin-top: -2px;border-radius: 100%;}
+.profile .a_p_img{width: 100%;}
+.dev_history{padding: 30px 0;background-color: #e9f4fa;}
+.dev_history .sub_type_title{font-size: 28px;color: #666;overflow: hidden;height: 36px;}
+.dev_history .sub_type_title .type_title_left{font-weight: bold;float: left;padding-left:24px;position: relative;}
+.dev_history .sub_type_title .type_title_left:before{content:'';display: block;width: 6px;height: 26px;background-color:#5aa8ff;position: absolute;left: 0;top: 50%;margin-top: -13px;}
+.dev_history .sub_type_title .type_title_right{font-size: 12px;float: right;color: #999;margin-top: 20px;}
+.dev_history .sub_type_title .type_title_right a{color: #666;}
+.dev_history .dev_cont{font-size: 14px;color: #666;margin-top: 30px;}
+.dev_history .dev_cont .dev_item{height: 74px;position: relative;}
+.dev_history .dev_cont .dev_item .dev_time{display: inline-block;vertical-align: top;width: 4%;padding-right:1.5%;line-height: 1.4;}
+.dev_history .dev_cont .dev_item .dev_txt{display: inline-block;vertical-align: top;text-align: justify;padding-left:2.25%;width:92%;line-height: 1.4;}
+.dev_history .dev_cont .dev_item .dev_dec{position: absolute;height: 100%;border-left:1px solid #ccc;top: 0;left: 5.5%; }
+.dev_history .dev_cont .dev_item .dev_dec .big_cycle{position: absolute;width: 14px;height: 14px;top: 0;left: -8px;border: 1px solid #ccc;border-radius: 100%;background-color: #e9f4fa;}
+.dev_history .dev_cont .dev_item .dev_dec .small_cycle{position: absolute;width: 8px;height: 8px;top: 4px;left: -4px;border-radius: 100%;background-color: #ccc;}
+.bq_live{padding: 30px 0;color: #666;font-size: 14px;}
+.bq_live .bq_live_left{width: 40%;float: left;}
+.bq_live .bq_live_right{width: 60%;float: left;}
+.bq_live .sub_type_title{font-size: 28px;overflow: hidden;height: 36px;}
+.bq_live .sub_type_title .type_title_left{font-weight: bold;float: left;padding-left:24px;position: relative;}
+.bq_live .sub_type_title .type_title_left:before{content:'';display: block;width: 6px;height: 26px;background-color:#5aa8ff;position: absolute;left: 0;top: 50%;margin-top: -13px;}
+.bq_live .sub_type_title .type_title_right{font-size: 12px;float: right;color: #999;margin-top: 20px;}
+.bq_live .sub_type_title .type_title_right a{color: #666;}
+.bq_live .bq_left_wrap{position: relative;}
+.bq_live .bq_img_wrap{width: 89%;}
+.bq_live .bq_img{width: 100%;}
+.bq_live .bq_l_sec{padding-top: 26px;min-height:148px;border-top:1px solid #ccc;margin-top:16px; }
+.bq_live .bq_l_sec:last-child{margin-top:0;}
+.bq_live .bq_l_sec p{margin-bottom: 6px;line-height: 1.4rem;text-align: justify;}
+.bq_live .bq_l_sec img{width: 23.125%;margin-right:2.5%;display: block;float: left;}
+.bq_live .bq_l_sec img:last-child{margin-right:0;}
+
 /* media */
 /* 横屏 */
 @media screen and (orientation:landscape){
