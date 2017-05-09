@@ -85,13 +85,13 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 .dep_big_event .big_events ul li .e_item .e_time{position: absolute;top:20px;right:20px;background-color: #2c8fcf;padding: 2px 4px;color: #fff;}
 .dep_big_event .big_events ul li:first-child .e_item .e_img{height: 346px;margin-bottom: 0;}
 .dep_big_event .big_events ul li:first-child .e_item .e_txt{position: absolute;bottom: 0;color: #fff;background-color: rgba(0,0,0,.4);padding: 8px 1%;width: 98%;font-size: 20px;font-weight: bold;text-align:justify;line-height: 24px;}
-.dep_big_event .big_events ul li:first-child+li {width:64.66%;}
+.dep_big_event .big_events ul li:first-child+li {width:64.88%;}
 .dep_big_event .big_events ul li:first-child+li .e_item {}
 .dep_big_event .big_events ul li:first-child+li .e_item .e_img{height: 346px;margin-bottom: 0;}
 .dep_big_event .big_events ul li:first-child+li .e_item .e_txt{position: absolute;bottom: 0;color: #fff;background-color: rgba(0,0,0,.4);padding: 8px 1%;width: 98%;font-size: 20px;font-weight: bold;text-align:justify;line-height: 24px;}
 /*业绩展示*/
 .achievement{padding-top:60px;}
-.achievement .ach_items{overflow: auto;}
+.achievement .ach_items{}
 .achievement .ach_items li{float: left;width: 43.33%}
 .achievement .ach_items li .ach_item{width: 100%;margin-bottom:24px;}
 .achievement .ach_items li .ach_item .ach_img{width:100%;height: 213px;display: none;margin-bottom: 20px;}
@@ -231,9 +231,9 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 .list_img .list_items{}
 .list_img .list_items li{margin-top: 46px;margin-bottom: 70px;}
 .list_img .list_items li .list_item{overflow: hidden;height: 190px;}
-.list_img .list_items li .list_item .list_item_left{float: left;width: 350px;}
+.list_img .list_items li .list_item .list_item_left{float: left;width: 29.1%;}
 .list_img .list_items li .list_item .list_item_left .list_item_img{width:100%;height: 190px;}
-.list_img .list_items li .list_item .list_item_right{float: left;width: 814px;margin-left:36px;}
+.list_img .list_items li .list_item .list_item_right{float: left;width: 67.8%;margin-left:3.1%;}
 .list_img .list_items li .list_item .list_item_right .list_item_title{display: block;font-size: 18px;font-weight: bold;margin-bottom: 14px;}
 .list_img .list_items li .list_item .list_item_right .list_item_title:hover{text-decoration: underline;}
 .list_img .list_items li .list_item .list_item_right .list_item_txt{display: block;text-align: justify;font-size: 14px;line-height: 24px;margin-bottom: 50px;}
@@ -251,7 +251,7 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 .list_catalog{}
 .list_catalog .list_items{margin-top: 56px;}
 .list_catalog .list_items li{margin-top: 26px;margin-bottom: 26px;}
-.list_catalog .list_items li .list_item{position: relative;height: 26px;margin:60px;}
+.list_catalog .list_items li .list_item{position: relative;height: 26px;margin:60px 0;}
 .list_catalog .list_items li .list_item .list_item_title{font-size: 18px;margin-bottom: 14px;background-color:#fff;position: absolute;left: 0;z-index: 2;line-height: 26px;padding-right:10px;}
 .list_catalog .list_items li .list_item .list_item_title:hover{text-decoration: underline;}
 .list_catalog .list_items li .list_item .list_item_time{font-size: 14px;color: #999;background-color:#fff;position: absolute;right: 0;z-index: 2;line-height: 26px;padding-left:10px; }
@@ -270,6 +270,15 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 @media screen and (max-width:1200px){
     .cont{width: 960px;}
     .banner .b_nav{width: 960px;}
+    .communicate .com_items .com_item .com_img{height: 145px;}
+    .document .doc_items .doc_item .doc_img{height: 93px;}
+    .industry .ind_left .ind_items_1 li:first-child .ind_item .ind_img{height: 260px;}
+    .industry .ind_left .ind_items_2 li:last-child .ind_item .ind_img{height: 260px;}
+    .industry .ind_left .ind_items .ind_item .ind_img{height: 137px;}
+    .industry .ind_right .ind_classic_items li .ind_classic_item .ind_c_img{height: 140px;}
+    .achievement .ach_items li .ach_item .ach_img{height: 170px;}
+    .dep_big_event .big_events ul li:first-child .e_item .e_img{height: 276.8px;}
+    .dep_big_event .big_events ul li:first-child+li .e_item .e_img{height: 276.8px;}
 }
 /* 窗口宽度<960,设计宽度=768 */
 @media screen and (max-width:959px){
