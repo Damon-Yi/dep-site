@@ -92,21 +92,21 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 /*业绩展示*/
 .achievement{padding-top:60px;}
 .achievement .ach_items{overflow: auto;}
-.achievement .ach_items li{float: left;}
-.achievement .ach_items li .ach_item{width: 520px;margin-bottom:24px;}
+.achievement .ach_items li{float: left;width: 43.33%}
+.achievement .ach_items li .ach_item{width: 100%;margin-bottom:24px;}
 .achievement .ach_items li .ach_item .ach_img{width:100%;height: 213px;display: none;margin-bottom: 20px;}
 .achievement .ach_items li .ach_item .ach_title{color: #666;font-size: 18px;position: relative;margin-bottom:10px;display: block;font-weight: bold;}
 .achievement .ach_items li .ach_item .ach_title:hover{text-decoration: underline;}
 .achievement .ach_items li .ach_item .ach_tar{display: inline-block;color: #fff;background: url(../images/air_bubbles1.png) no-repeat center bottom;background-size: contain;font-size: 10px;padding:5px 6px;margin-left: 10px;}
 .achievement .ach_items li .ach_item .ach_des{color: #666;font-size: 14px;text-align: justify;line-height: 16px;}
 .achievement .ach_items li .ach_item .ach_des:hover{text-decoration: underline;}
-.achievement .ach_items li:first-child{margin-right:10px;}
-.achievement .ach_items li:first-child .ach_item{width: 316px;margin-bottom:0;}
+.achievement .ach_items li:first-child{margin-right:10px;width: 26.33%;}
+.achievement .ach_items li:first-child .ach_item{margin-bottom:0;}
 .achievement .ach_items li:first-child .ach_item .ach_img{display: block;}
 .achievement .ach_items li:first-child .ach_item .ach_des{display: none;}
 .achievement .ach_items li:first-child .ach_item .ach_tar{display: none;}
-.achievement .ach_items li:first-child+li{margin-right:20px;}
-.achievement .ach_items li:first-child+li .ach_item{width: 316px;margin-bottom:0;}
+.achievement .ach_items li:first-child+li{margin-right:20px;width: 26.33%;}
+.achievement .ach_items li:first-child+li .ach_item{margin-bottom:0;}
 .achievement .ach_items li:first-child+li .ach_item .ach_img{display: block;}
 .achievement .ach_items li:first-child+li .ach_item .ach_des{display: none;}
 .achievement .ach_items li:first-child+li .ach_item .ach_tar{display: none;}
@@ -114,31 +114,33 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 
 /*行业动态*/
 .industry{padding-top:60px;padding-bottom:60px;color: #999;}
-.industry .ind_left{width:780px;border-right:1px solid #ccc;overflow: auto;float: left;}
-.industry .ind_left .ind_items{overflow: auto;width:358px;float: left;}
-.industry .ind_left .ind_items li{float: left;margin:0 14px 14px 0;}
-.industry .ind_left .ind_items .ind_item{width:172px;position: relative;}
+.industry .ind_left{width:65%;border-right:1px solid #ccc;overflow: auto;float: left;}
+.industry .ind_left .ind_items{overflow: auto;width:45.9%;float: left;}
+.industry .ind_left .ind_items li{float: left;margin:0 3.9% 3.9% 0;width:48.05%;}
+.industry .ind_left .ind_items .ind_item{width:100%;position: relative;}
 .industry .ind_left .ind_items .ind_item .ind_img{width:100%;height: 172px;}
 .industry .ind_left .ind_items .ind_item .ind_time{font-size: 9px;margin:6px 0;}
 .industry .ind_left .ind_items .ind_item .ind_text{font-size: 14px;color: #666;text-align: justify;line-height:18px;}
 .industry .ind_left .ind_items .ind_item .ind_text:hover{text-decoration: underline;}
 .industry .ind_left .ind_items_1{margin-right: 14px;}
 .industry .ind_left .ind_items .ind_item .ind_source{font-size: 9px;margin:6px 0;}
-.industry .ind_left .ind_items_1 li:first-child{margin-right: 0;}
-.industry .ind_left .ind_items_1 li:first-child .ind_item{width:358px;}
+.industry .ind_left .ind_items_1 li:first-child{margin-right: 0;width:100%;}
+.industry .ind_left .ind_items_1 li:first-child .ind_item{width:100%;}
 .industry .ind_left .ind_items_1 li:first-child .ind_item .ind_img{height: 325px;}
 .industry .ind_left .ind_items_1 li:first-child .ind_item .ind_text{display: block;position: absolute;width: 96%;bottom: 0;left: 0;color: #fff;padding: 8px 2%;background: rgba(0,0,0,.5);font-weight: bold;font-size: 20px;line-height:24px;}
 .industry .ind_left .ind_items_1 li:first-child .ind_item .ind_time{display: none;}
 .industry .ind_left .ind_items_1 li:first-child .ind_item .ind_source{display: none;}
 .industry .ind_left .ind_items_1 li:last-child{margin-right: 0;}
-.industry .ind_left .ind_items_2{width:378px;}
-.industry .ind_left .ind_items_2 li:last-child{margin-right: 0;}
-.industry .ind_left .ind_items_2 li:last-child .ind_item{width:358px;}
+.industry .ind_left .ind_items_2{width:48.46%;}
+.industry .ind_left .ind_items_2 li{margin:0 0 3.6% 3.6%;width: 48.2%;}
+.industry .ind_left .ind_items_2 li:first-child{margin-left: 0;}
+.industry .ind_left .ind_items_2 li:last-child{margin-left: 0;width:100%;}
+.industry .ind_left .ind_items_2 li:last-child .ind_item{width:100%;}
 .industry .ind_left .ind_items_2 li:last-child .ind_item .ind_img{height: 325px;}
 .industry .ind_left .ind_items_2 li:last-child .ind_item .ind_text{display: block;position: absolute;width: 96%;bottom: 0;left: 0;color: #fff;padding: 8px 2%;background: rgba(0,0,0,.5);font-weight: bold;font-size: 20px;line-height:24px;}
 .industry .ind_left .ind_items_2 li:last-child .ind_item .ind_time{display: none;}
 .industry .ind_left .ind_items_2 li:last-child .ind_item .ind_source{display: none;}
-.industry .ind_right{float: left;width: 380px;margin-left: 39px;} 
+.industry .ind_right{float: left;width:31.66%;margin-left: 3.2%;} 
 .industry .ind_right .ind_classic{width:229px;height: 66px;background: url(../images/air_bubbles4.png) no-repeat left center;background-size:contain;color: #fff;font-size: 20px;text-align: center;padding-top: 14px;} 
 .industry .ind_right .ind_classic .ind_classic_title{} 
 .industry .ind_right .ind_classic .ind_classic_more{color: #fff;margin-left:14px;position: relative;padding-left: 20px;} 
@@ -163,8 +165,8 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 .document .doc_items li{margin-bottom: 30px;}
 .document .doc_items li:last-child{margin-bottom: 0;}
 .document .doc_items .doc_item{overflow: auto;}
-.document .doc_items .doc_item .doc_img{width: 118px;height: 117px;float: left;}
-.document .doc_items .doc_item .doc_info{float: left;width: 366px;margin-left: 20px;}
+.document .doc_items .doc_item .doc_img{width: 20.3%;height: 117px;float: left;}
+.document .doc_items .doc_item .doc_info{float: left;width: 63.1%;margin-left: 3.4%;}
 .document .doc_items .doc_item .doc_des{color: #999;font-size: 9px;margin-bottom: 16px;}
 .document .doc_items .doc_item .doc_des .doc_editor{}
 .document .doc_items .doc_item .doc_des .doc_time{float: right;}
@@ -186,7 +188,7 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 /*部门活动*/
 .communicate{padding: 90px 0 30px;}
 .communicate .com_items{overflow: auto;margin-left: 20px;}
-.communicate .com_items li{float: left;width: 274px;margin-bottom: 60px;margin-right: 16px;}
+.communicate .com_items li{float: left;width:47.24%;margin-bottom: 60px;margin-right:2.76%;}
 .communicate .com_items .com_item{}
 .communicate .com_items .com_item .com_img{width:100%;height: 183px;}
 .communicate .com_items .com_item .com_title{font-size: 18px;color: #666;margin:16px 0 8px;display: block;}
@@ -210,7 +212,7 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 
 /*列表-标题*/
 .list_sec_title{overflow-y: auto;overflow-x: hidden;position: relative;margin-top: -78px;margin-bottom: 56px;}
-.list_sec_title .big_type_title{width: 243px;height: 157px;background-color:#5aa8ff;font-size: 44px;color: #fff;text-align: center;font-weight: bold;line-height: 157px;}
+.list_sec_title .big_type_title{min-width: 223px;background-color: #5aa8ff;font-size: 44px;color: #fff;text-align: center;font-weight: bold;float: left;line-height: 1;padding: 56px 20px;}
 /*列表-分页*/
 .page_nav{text-align: center;margin-bottom: 20px;}
 .pagenation{overflow: auto;display: inline-block;}
