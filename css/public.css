@@ -23,10 +23,10 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 .header .h_nav li>a{padding:48px 12px 20px;color: #999;text-decoration: none;display: block;line-height: 1;}
 .header .h_nav li>a:hover{text-decoration: underline;}
 .header .h_nav li .user_icon{width: 19px;height: 18px;margin-top: -2px;}
-.header .search{float: right;position: relative;margin-top: 32px;}
-.header .search>input{width: 265px;height: 30px;border:1px solid #e6e6e6;border-radius: 30px;padding:0 35px 0 10px;}
-.header .search>a{display: block;position: absolute;top: 4px;right: 14px;}
-.header .search>a>img{width: 21px;height: 22px;}
+.header .search{float: right;position: relative;margin-top: 32px;width: 26%;}
+.header .search .search_input{width: 85%;height: 30px;border:1px solid #e6e6e6;border-radius: 30px;padding:0 11% 0 3%;}
+.header .search .search_btn{display: block;position: absolute;top: 4px;right: 14px;}
+.header .search .search_btn>img{width: 21px;height: 22px;}
 /*banner*/
 .banner{height: 444px;background: url(../images/banner.png) no-repeat center center;background-size:cover;position: relative;overflow: hidden;}
 .banner .b_nav{background: rgba(255,255,255,.9);position: absolute;bottom:64px;width: 1200px;overflow: hidden;}
@@ -76,16 +76,17 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 /*部门大事件*/
 .dep_big_event{background-color: #e9f4fa;padding:30px 0;}
 .dep_big_event .big_events{}
-.dep_big_event .big_events ul{}
-.dep_big_event .big_events ul li{float: left;margin-right: 14px;margin-bottom: 14px;position: relative;}
-.dep_big_event .big_events ul li .e_item{width:381px;position: relative;}
+.dep_big_event .big_events ul{overflow: auto;}
+.dep_big_event .big_events ul li{float: left;margin-right: 14px;margin-bottom: 14px;position: relative;width: 31.75%;}
+.dep_big_event .big_events ul li .e_item{width:100%;position: relative;}
 .dep_big_event .big_events ul li .e_item .e_img{width:100%;height: 176px;margin-bottom: 10px;display: block;}
 .dep_big_event .big_events ul li .e_item .e_txt{font-size: 14px;color:#666;line-height: 18px;}
 .dep_big_event .big_events ul li .e_item .e_txt:hover{text-decoration:underline;}
 .dep_big_event .big_events ul li .e_item .e_time{position: absolute;top:20px;right:20px;background-color: #2c8fcf;padding: 2px 4px;color: #fff;}
 .dep_big_event .big_events ul li:first-child .e_item .e_img{height: 346px;margin-bottom: 0;}
 .dep_big_event .big_events ul li:first-child .e_item .e_txt{position: absolute;bottom: 0;color: #fff;background-color: rgba(0,0,0,.4);padding: 8px 1%;width: 98%;font-size: 20px;font-weight: bold;text-align:justify;line-height: 24px;}
-.dep_big_event .big_events ul li:first-child+li .e_item {width:776px;}
+.dep_big_event .big_events ul li:first-child+li {width:64.66%;}
+.dep_big_event .big_events ul li:first-child+li .e_item {}
 .dep_big_event .big_events ul li:first-child+li .e_item .e_img{height: 346px;margin-bottom: 0;}
 .dep_big_event .big_events ul li:first-child+li .e_item .e_txt{position: absolute;bottom: 0;color: #fff;background-color: rgba(0,0,0,.4);padding: 8px 1%;width: 98%;font-size: 20px;font-weight: bold;text-align:justify;line-height: 24px;}
 /*业绩展示*/
@@ -208,8 +209,8 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 .footer{background-color:#071327;height: 88px;line-height: 88px;color: #344158;text-align: center;}
 
 /*列表-标题*/
-.sec_title{overflow-y: auto;overflow-x: hidden;position: relative;margin-top: -78px;margin-bottom: 56px;}
-.sec_title .big_type_title{width: 243px;height: 157px;background-color:#5aa8ff;font-size: 44px;color: #fff;text-align: center;font-weight: bold;line-height: 157px;}
+.list_sec_title{overflow-y: auto;overflow-x: hidden;position: relative;margin-top: -78px;margin-bottom: 56px;}
+.list_sec_title .big_type_title{width: 243px;height: 157px;background-color:#5aa8ff;font-size: 44px;color: #fff;text-align: center;font-weight: bold;line-height: 157px;}
 /*列表-分页*/
 .page_nav{text-align: center;margin-bottom: 20px;}
 .pagenation{overflow: auto;display: inline-block;}
@@ -262,6 +263,11 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 /* 竖屏 */
 @media screen and (orientation:portrait){
     
+}
+/* 窗口宽度<1200,设计宽度=768 */
+@media screen and (max-width:1200px){
+    .cont{width: 960px;}
+    .banner .b_nav{width: 960px;}
 }
 /* 窗口宽度<960,设计宽度=768 */
 @media screen and (max-width:959px){
