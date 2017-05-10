@@ -144,7 +144,7 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 .industry .ind_left .ind_items_2 li:last-child .ind_item .ind_text{display: block;position: absolute;width: 96%;bottom: 0;left: 0;color: #fff;padding: 8px 2%;background: rgba(0,0,0,.5);font-size: 18px;line-height:24px;}
 .industry .ind_left .ind_items_2 li:last-child .ind_item .ind_time{display: none;}
 .industry .ind_left .ind_items_2 li:last-child .ind_item .ind_source{display: none;}
-.industry .ind_right{float: left;width:31.66%;margin-left: 3.2%;} 
+.industry .ind_right{float: left;width:32.46%;margin-left: 2.4%;} 
 .industry .ind_right .ind_classic{width:229px;height: 66px;background: url(../images/air_bubbles4.png) no-repeat left center;background-size:contain;color: #fff;font-size: 20px;text-align: center;padding-top: 14px;} 
 .industry .ind_right .ind_classic .ind_classic_title{} 
 .industry .ind_right .ind_classic .ind_classic_more{color: #fff;margin-left:14px;position: relative;padding-left: 20px;} 
