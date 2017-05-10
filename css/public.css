@@ -377,6 +377,7 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 .seek_more_list .seek_more_cont li .seek_sub_list li:last-child .s_item{margin-bottom: 0;}
 .seek_more_list .seek_more_cont li .seek_sub_list li .s_item .s_item_title{padding:12px 10px;border-bottom:1px solid #ccc;color: #666;}
 .seek_more_list .seek_more_cont li .seek_sub_list li .s_item .s_item_info{padding:0 10px;margin: 8px 0;color: #666;}
+.seek_more_list .seek_more_cont li .seek_sub_list li .s_item .s_item_info span{margin-right: 50px;}
 .seek_more_list .seek_more_cont li .seek_sub_list li .s_item .s_item_txt{padding:0 10px;text-align: justify;line-height: 1.6;}
 .seek_more_list .seek_more_cont li .seek_sub_list li .s_item .s_item_btn{position: absolute;width: 100px;height: 36px;text-align: center;line-height: 36px;background-color:#5aa8ff;color: #fff;right: 10px;bottom: 10px;}
 .seek_more_list .seek_more_cont li .seek_sub_list li .s_item .s_item_btn:hover{text-decoration: underline;}
