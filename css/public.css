@@ -40,10 +40,10 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 .banner .b_nav li.active>a{color: #2c8fcf;}
 /*section*/
 .section{background-color:#fff;overflow-y:auto;overflow-x:hidden;}
-.section a{color: #999;text-decoration: none;}
+.section a{color: #999;text-decoration: none;word-break: break-all;}
 .section .sec_left{width: 50%;float: left;}
 .section .sec_right{width: 50%;float: left;}
-.section .sec_title{height: 36px;margin-bottom: 20px;}
+.section .sec_title{height: 40px;margin-bottom: 20px;}
 .section .sec_title .t_txt{font-size: 24px;color: #333;padding-left: 46px;position: relative;}
 .section .sec_title .t_txt:before{content: '';display: block;width: 8px;height: 8px;background-color: #000;left:20px;position: absolute;top: 50%;margin-top: -4px;}
 .section .sec_title .t_more{color: #999;padding-left: 15px;position: relative;margin-left: 20px;font-size: 16px;}
@@ -60,7 +60,7 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 .notice .sec_left .sec_dep ul>li a>p{}
 .notice .sec_left .sec_dep ul>li a:hover>p{text-decoration: underline;}
 /*最新通知*/
-.notice .sec_right .new_notice{}
+.notice .sec_right .new_notice{margin-left: 46px;}
 .notice .sec_right .new_notice ul{}
 .notice .sec_right .new_notice ul{}
 .notice .sec_right .new_notice ul>li{/* overflow: auto; */margin:42px 0 50px;height: 88px;}
@@ -76,7 +76,7 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 .notice .sec_right .new_notice ul>li .article .t_info .time{float: right;}
 /*部门大事件*/
 .dep_big_event{background-color: #e9f4fa;padding:30px 0;}
-.dep_big_event .big_events{}
+.dep_big_event .big_events{margin-left: 20px;}
 .dep_big_event .big_events ul{overflow: auto;}
 .dep_big_event .big_events ul li{float: left;margin-right: 1.2%;margin-bottom: 1.2%;position: relative;width: 32.1%;}
 .dep_big_event .big_events ul li .e_item{width:100%;position: relative;}
@@ -92,7 +92,7 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 .dep_big_event .big_events ul li:first-child+li .e_item .e_txt{position: absolute;bottom: 0;color: #fff;background-color: rgba(0,0,0,.4);padding: 8px 1%;width: 98%;font-size: 18px;text-align:justify;line-height: 24px;}
 /*业绩展示*/
 .achievement{padding-top:60px;}
-.achievement .ach_items{}
+.achievement .ach_items{margin-left: 20px;}
 .achievement .ach_items li{float: left;width: 43.33%}
 .achievement .ach_items li .ach_item{width: 100%;margin-bottom:24px;}
 .achievement .ach_items li .ach_item .ach_img{width:100%;height: 213px;display: none;margin-bottom: 20px;}
@@ -117,6 +117,7 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 
 /*行业动态*/
 .industry{padding-top:60px;padding-bottom:60px;color: #999;}
+.industry .industry_wrap{margin-left:20px; }
 .industry .ind_left{width:65%;border-right:1px solid #eee;overflow: auto;float: left;}
 .industry .ind_left .ind_items{overflow: auto;width:45.9%;float: left;}
 .industry .ind_left .ind_items li{float: left;margin:0 3.9% 3.9% 0;width:48.05%;}
@@ -175,17 +176,17 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 .document .doc_items .doc_item .doc_des .doc_time{float: right;}
 .document .doc_items .doc_item .doc_txt{font-size: 14px;color: #666;text-align: justify;line-height: 18px;}
 .document .doc_items .doc_item .doc_txt:hover{text-decoration: underline;}
-.document .rule_items{margin-top: 16px;margin-left: 20px;}
+.document .rule_items{margin-top: 16px;margin-left: 46px;}
 .document .rule_items li{padding: 40px 0;border-bottom:1px solid #e6e6e6; }
 .document .rule_items li:first-child{padding-top:0;}
-.document .rule_items li:last-child{border-bottom:none; }
+.document .rule_items li:last-child{border-bottom:none;padding-bottom: 0;}
 .document .rule_items li .rule_item{}
 .document .rule_items li .rule_item .rule_info{height: 90px;}
 .document .rule_items li .rule_item .rule_info_left{float: left;width: 18%;border-right:1px solid #e6e6e6;color: #888;font-size: 14px;}
 .document .rule_items li .rule_item .rule_info_p_1{}
 .document .rule_items li .rule_item .rule_info_p_2{font-size: 28px;color: #666;margin:10px 0;}
 .document .rule_items li .rule_item .rule_info_p_3{}
-.document .rule_items li .rule_item .rule_info_right{float: left;width: 71%;margin-left:5%;font-size: 14px;color: #888;}
+.document .rule_items li .rule_item .rule_info_right{float: left;width: 76%;margin-left:5%;font-size: 14px;color: #888;}
 .document .rule_items li .rule_item .rule_title{margin-bottom:16px;font-weight: bold;color: #5aa8ff;font-size: 18px;display: block;}
 .document .rule_items li .rule_item .rule_txt{text-align: justify;line-height: 18px;}
 .document .rule_items li .rule_item .rule_txt:hover{text-decoration: underline;}
