@@ -357,7 +357,7 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 .sec_map{height: 520px;background: url(../images/join_2.png) no-repeat center center;background-size: cover;position: relative;overflow: hidden;}
 /*招聘列表*/
 .seek_more_list{font-size: 14px;color: #999;padding-bottom: 80px;}
-.seek_more_list .sub_type_title{font-size: 28px;color: #666;overflow: hidden;height: 36px;width: 90%;}
+.seek_more_list .sub_type_title{font-size: 28px;color: #666;overflow: hidden;height: 36px;}
 .seek_more_list .sub_type_title .type_title_left{font-weight: bold;float: left;padding-left:24px;position: relative;}
 .seek_more_list .sub_type_title .type_title_left:before{content:'';display: block;width: 6px;height: 26px;background-color:#5aa8ff;position: absolute;left: 0;top: 50%;margin-top: -13px;}
 .seek_more_list .sub_type_title .type_title_right{font-size: 12px;float: right;color: #999;margin-top: 20px;}
@@ -400,8 +400,8 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 .seek_details .seek_d_info .s_info .s_info_p:last-child{margin-bottom: 0;}
 .seek_details .seek_d_info .s_info .s_info_p>span{display: inline-block;vertical-align: middle;margin-right:160px;min-width: 170px;}
 .seek_details .seek_d_info .s_info .s_info_p>span:last-child{margin-right:0;}
-.s_bottom{font-size: 24px;color: #5aa8ff;padding: 30px 0 70px;}
-.s_bottom>a{font-size: 14px;color: #5aa8ff;margin-left:90px; }
+.s_bottom{font-size: 24px;color: #5aa8ff;padding: 30px 0 30px;}
+.s_bottom>a{font-size: 14px;color: #5aa8ff;/* margin-left:90px;  */}
 .s_bottom>a:hover{text-decoration: underline;}
 
 /* media */
