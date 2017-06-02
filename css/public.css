@@ -119,7 +119,7 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 /*行业动态*/
 .industry{padding-top:60px;padding-bottom:30px;color: #999;background-color: #e9f4fa;}
 .industry .industry_wrap{margin-left:20px; }
-.industry .ind_left{width:65%;border-right:1px solid #eee;overflow: auto;float: left;}
+.industry .ind_left{width:65%;border-right:1px solid #ddd;overflow: auto;float: left;}
 .industry .ind_left .ind_items{/* overflow: auto; */width:45.9%;float: left;}
 .industry .ind_left .ind_items li{float: left;margin:0 3.9% 3.9% 0;width:48.05%;}
 .industry .ind_left .ind_items .ind_item{width:100%;position: relative;}
@@ -162,7 +162,7 @@ body{color: #333;font: 12px/1.2 "Microsoft YaHei","SimSun","宋体","Arial Narro
 .industry .ind_right .ind_classic_items li .ind_classic_item{}
 .industry .ind_right .ind_classic_items li .ind_classic_item .ind_c_img{width:100%;height: 176px;display: none;}
 .industry .ind_right .ind_classic_items li .ind_classic_item .ind_c_info{/* overflow: auto; */height: 90px;margin-top: 14px;}
-.industry .ind_right .ind_classic_items li .ind_classic_item .ind_info_left{float: left;width: 18%;border-right:1px solid #eee;color: #888;font-size: 14px;}
+.industry .ind_right .ind_classic_items li .ind_classic_item .ind_info_left{float: left;width: 18%;border-right:1px solid #ddd;color: #888;font-size: 14px;}
 .industry .ind_right .ind_classic_items li .ind_classic_item .ind_info_p_1{}
 .industry .ind_right .ind_classic_items li .ind_classic_item .ind_info_p_2{font-size: 28px;color: #666;margin:10px 0;}
 .industry .ind_right .ind_classic_items li .ind_classic_item .ind_info_p_3{}
