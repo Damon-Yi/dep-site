@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="stencil" content="">
+    <meta name="publishid" content="">
+    <meta name="verify-v1" content="">
+    <meta name="360-site-verification" content="">
+    <meta name="application-name" content="">
+    <meta name="msapplication-TileImage" content="">
+    <meta name="msapplication-TileColor" content="#ffbf27">
+    <meta name="sogou_site_verification" content="">
+    <link rel="apple-touch-icon" href="">
+    <link rel="stylesheet" href="css/public.css">
+    <style>
+        .login_box{height: 606px;background: url(images/bg.png) no-repeat center center;background-size: cover;position: relative;overflow: hidden;}
+        .login_box .l_wrap{width: 350px;margin: 95px auto 0;background-color: #fff;border-radius: 3px;padding: 33px;}
+        .login_box .l_form{}
+        .login_box .l_title{text-align: center;color: #989999;font-size: 22px;font-weight: bold;}
+        .login_box .l_inputs{border-color:#eee;border-style: solid;border-width: 1px 1px 0 1px;margin: 22px 0 10px 0;}
+        .login_box .l_inputs li{width: 100%;height: 42px;border-bottom:1px solid #eee;}
+        .login_box .l_inputs .l_icon{width: 24px;height: 24px;margin: 9px 9px 0 9px;display: inline-block;vertical-align: top;}
+        .login_box .l_inputs .l_input{color: #666;height: 24px;display: inline-block;vertical-align: top;margin: 9px 9px 0 9px;border:0;width: 280px;font-size: 16px;}
+        .login_box .l_tips{color: #b8b9b9;font-size: 14px;}
+        .login_box .l_link{float: right;color: #5aa8ff;font-size: 14px;text-decoration: none;}
+        .login_box .confirm_btn{display: block;width: 100%;height: 38px;background-color: #5aa8ff;border:0;color: #fff;font-size: 20px;font-weight: bold;margin-top:30px;border-radius: 3px;cursor: pointer;}
+        .login_footer{background-color: #fff;font-size: 14px;color: #999;height: 102px;line-height: 102px;}
+    </style>
+ </head>
+<body>
+    <!--头部-->
+	<div class="header">
+        <div class="cont">
+            <div class="logo"><img src="images/logo.png" alt=""></div>
+            <div class="sub_logo"><img src="images/word.png" alt=""></div>
+            <ul class="h_nav">
+                <li><a href="javascript:;"><img class="user_icon" src="images/me.png" alt=""></a></li>
+                <li><a href="javascript:;">博文</a></li>
+                <li><a href="javascript:;">互动社区</a></li>
+                <li><a href="javascript:;">关于我们</a></li>
+                <li><a href="javascript:;">加入我们</a></li>
+            </ul>
+            <!-- <div class="search">
+                <input class="search_input" type="text"><a class="search_btn" href="javascript:;"><img src="images/search.png" alt=""></a>
+            </div> -->
+        </div>
+    </div>
+    <div class="login_box">
+        <div class="l_wrap">
+            <form class="l_form" action="#">
+                <p class="l_title">用户登录</p>
+                <ul class="l_inputs">
+                    <li><img class="l_icon" src="images/user.png" alt=""><input class="l_input" type="text" placeholder="请输入工号"></li>
+                    <li><img class="l_icon" src="images/pw.png" alt=""><input class="l_input" type="password" placeholder="请输入密码"></li>
+                </ul>
+                <div><span class="l_tips">登录请输入你的工号与密码</span><a class="l_link" href="javascript:;">点击注册</a></div>
+                <input class="confirm_btn" type="button" value="登录">
+            </form>
+        </div>
+    </div>
+    <!--底部-->
+    <div class="section footer login_footer">
+        <div class="cont">
+            <p>Copyright © 1998-2015  佰仟金融新业务拓展部. All Rights Reserved. 粤ICP备09002987号-30</p>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/layer/layer.js"></script>
+    <script>
+        $(function(){
+            $('.confirm_btn').on('click',function(){
+                var flag = true;
+                $('.l_inputs .l_input').each(function(){
+                    if($(this).val()==''&&flag){
+                        flag = false;
+                        layer.msg($(this).attr('placeholder'),{time:1500});
+                    }
+                });
+                console.log(flag);
+                if(flag){
+                    $('.l_form').submit();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
